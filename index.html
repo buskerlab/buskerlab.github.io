@@ -11,8 +11,11 @@ buskerlab.com<br>
 document.write("buskerlab"); 
 var mobileInfo = new Array('Android', 'iPhone', 'iPod', 'BlackBerry', 'Windows CE', 'SAMSUNG', 'LG', 'MOT', 'SonyEricsson');
 var str = new String("desktop<br>");
+document.write(mobileInfo);
+document.write("<br>aaa<br>");
+document.write(mobileInfo[0]);
 for (var info in mobileInfo){
-	document.write(info+"<br>");
+	document.write(mobileInfo[info]+"<br>");
     if (navigator.userAgent.match(mobileKeyWords[info]) != null){
         str = "mobile<br>";
         document.write("match!!<br>");
