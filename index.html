@@ -16,10 +16,9 @@ document.write("<br>aaa<br>");
 document.write(mobileInfo[0]);
 for (var info in mobileInfo){
 	document.write(mobileInfo[info]+"<br>");
-    if (navigator.userAgent.match(mobileKeyWords[info]) != null){
-        str = "mobile<br>";
+    if (navigator.userAgent.match(mobileKeyWords[info]) != null)
+    {
         document.write("match!!<br>");
-        break;
     }
 }
 document.write(str);
