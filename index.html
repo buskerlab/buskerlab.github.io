@@ -5,10 +5,18 @@ BuskerLab
 </title>
 </head>
 <body>
-buskerlab.com
+buskerlab.com<br>
 <script language="JavaScript">//자바스크립트 시작
  <!--
- document.write("aaa");
+var mobileInfo = new Array('Android', 'iPhone', 'iPod', 'BlackBerry', 'Windows CE', 'SAMSUNG', 'LG', 'MOT', 'SonyEricsson');
+var str = "desktop<br>";
+for (var info in mobileInfo){
+    if (navigator.userAgent.match(mobileKeyWords[info]) != null){
+        str = "mobile<br>";
+        break;
+    }
+}
+document.write(str);
  
  //-->
  </script>
