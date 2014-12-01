@@ -11,13 +11,15 @@ buskerlab.com<br>
 document.write("buskerlab"); 
 var mobileInfo = new Array('Android', 'iPhone', 'iPod', 'BlackBerry', 'Windows CE', 'SAMSUNG', 'LG', 'MOT', 'SonyEricsson');
 var str = new String("desktop<br>");
-document.write(str);
 for (var info in mobileInfo){
+	document.write(info+"<br>");
     if (navigator.userAgent.match(mobileKeyWords[info]) != null){
         str = "mobile<br>";
+        document.write("match!!<br>");
         break;
     }
 }
+document.write(str);
 
 
 //-->
