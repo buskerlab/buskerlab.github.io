@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>
+BuskerLab
+</title>
+</head>
+<body>
+buskerlab.com<br>
+<script language="JavaScript">
+<!--
+document.write("buskerlab"); 
+var mobileInfo = new Array('Android', 'iPhone', 'iPod', 'BlackBerry', 'Windows CE', 'SAMSUNG', 'LG', 'MOT', 'SonyEricsson');
+var str = new String("desktop<br>");
+document.write(mobileInfo);
+document.write("<br>aaa<br>");
+document.write(mobileInfo[0]);
+document.write("<br>");
+document.write(navigator.userAgent);
+for (var info in mobileInfo){
+	document.write(mobileInfo[info]+"<br>");
+    if (navigator.userAgent.match(mobileKeyWords[info]) != null)
+    {
+        document.write("match!!<br>");
+    }
+}
+document.write(str);
+
+
+//-->
+</script>
+</body>
+</html>
