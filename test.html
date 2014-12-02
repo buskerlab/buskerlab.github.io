@@ -22,17 +22,18 @@ document.write("<br>");
 document.write(mobileInfo[1]);
 document.write("<br>");
 
-var str = new String("desktop<br>");
+var mobile = false;
 for (var info in mobileInfo){
 	document.write("for loop " + info + "<br>");
 	document.write(mobileInfo[info]+"<br>");
     if (navigator.userAgent.match(mobileInfo[info]))
     {
         document.write("match!!<br>");
+        mobile = true;
         break;
     }
 }
-document.write(str);
+document.write("mobile " + mobile);
 
 
 //-->
