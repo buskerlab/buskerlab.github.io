@@ -3,43 +3,43 @@
 <title>
 BuskerLab
 </title>
-</head>
-<body>
-buskerlab.com<br>
+
 <script language="JavaScript">
 <!--
-document.write("buskerlab test webpage<Br>"); 
-document.write("web browser information<Br>"); 
-document.write(navigator.userAgent);
-document.write("<Br>");
-document.write("data to filter<Br>"); 
-var mobileInfo = new Array('Android', 'iPhone', 'iPod', 'BlackBerry', 'Windows CE', 
-'SAMSUNG', 'LG', 'MOT', 'SonyEricsson','Symbian','Windows Phone','webOS','Opera Mini',
-'Opera Mobi','POLARIS','IEMobile');
-document.write(mobileInfo);
-document.write("<Br>");
-document.write("data test<Br>"); 
-document.write(mobileInfo[0]);
-document.write("<br>");
-document.write(mobileInfo[1]);
-document.write("<br>");
+function isMobile()
+{
+	var mobileInfo = new Array('Android', 'iPhone', 'iPod', 'BlackBerry', 'Windows CE', 
+	'SAMSUNG', 'LG', 'MOT', 'SonyEricsson','Symbian','Windows Phone','webOS','Opera Mini',
+	'Opera Mobi','POLARIS','IEMobile');
 
-var mobile = false;
-// browser and device information check
-for (var info in mobileInfo){
-	document.write("for loop " + info + "<br>");
-	document.write(mobileInfo[info]+"<br>");
-    if (navigator.userAgent.match(mobileInfo[info]))
-    {
-        document.write("match!!<br>");
-        mobile = true;
-        break;
-    }
+	var mobile = false;
+	// check browser and device information
+	for (var info in mobileInfo){
+		document.write("for loop " + info + "<br>");
+		document.write(mobileInfo[info]+"<br>");
+		if (navigator.userAgent.match(mobileInfo[info]))
+		{
+			mobile = true;
+			break;
+		}
+	}
+	// check browser witch
+	//if (document.body.clientWidth < 800) {
+	//
+	//}
+	return mobile;
 }
-document.write("mobile " + mobile);
-
-
 //-->
 </script>
+
+</head>
+<body>
+<table width=100% height=100%>
+<tr>
+<td>
+aaa
+</td>
+</tr>
+<html>
 </body>
 </html>
