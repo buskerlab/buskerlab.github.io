@@ -26,7 +26,7 @@ var str = new String("desktop<br>");
 for (var info in mobileInfo){
 	document.write("for loop " + info + "<br>");
 	document.write(mobileInfo[info]+"<br>");
-    if (navigator.userAgent.match(mobileKeyWords[info]) != null)
+    if (navigator.userAgent.match(mobileInfo[info]) != null)
     {
         document.write("match!!<br>");
     }
