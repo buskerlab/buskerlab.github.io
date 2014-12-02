@@ -15,8 +15,6 @@ function isMobile()
 	var mobile = false;
 	// check browser and device information
 	for (var info in mobileInfo){
-		document.write("for loop " + info + "<br>");
-		document.write(mobileInfo[info]+"<br>");
 		if (navigator.userAgent.match(mobileInfo[info]))
 		{
 			mobile = true;
