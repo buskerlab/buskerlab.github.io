@@ -13,7 +13,9 @@ document.write("web browser information<Br>");
 document.write(navigator.userAgent);
 document.write("<Br>");
 document.write("data to filter<Br>"); 
-var mobileInfo = new Array('Android', 'iPhone', 'iPod', 'BlackBerry', 'Windows CE', 'SAMSUNG', 'LG', 'MOT', 'SonyEricsson');
+var mobileInfo = new Array('Android', 'iPhone', 'iPod', 'BlackBerry', 'Windows CE', 
+'SAMSUNG', 'LG', 'MOT', 'SonyEricsson','Symbian','Windows Phone','webOS','Opera Mini',
+'Opera Mobi','POLARIS','IEMobile');
 document.write(mobileInfo);
 document.write("<Br>");
 document.write("data test<Br>"); 
@@ -23,6 +25,7 @@ document.write(mobileInfo[1]);
 document.write("<br>");
 
 var mobile = false;
+// browser and device information check
 for (var info in mobileInfo){
 	document.write("for loop " + info + "<br>");
 	document.write(mobileInfo[info]+"<br>");
