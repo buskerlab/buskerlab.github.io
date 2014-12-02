@@ -8,15 +8,23 @@ BuskerLab
 buskerlab.com<br>
 <script language="JavaScript">
 <!--
-document.write("buskerlab"); 
+document.write("buskerlab test webpage<Br>"); 
+document.write("web browser information<Br>"); 
+document.write(navigator.userAgent);
+document.write("<Br>");
+document.write("data to filter<Br>"); 
 var mobileInfo = new Array('Android', 'iPhone', 'iPod', 'BlackBerry', 'Windows CE', 'SAMSUNG', 'LG', 'MOT', 'SonyEricsson');
-var str = new String("desktop<br>");
 document.write(mobileInfo);
-document.write("<br>aaa<br>");
+document.write("<Br>");
+document.write("data test<Br>"); 
 document.write(mobileInfo[0]);
 document.write("<br>");
-document.write(navigator.userAgent);
+document.write(mobileInfo[1]);
+document.write("<br>");
+
+var str = new String("desktop<br>");
 for (var info in mobileInfo){
+	document.write("for loop " + info + "<br>");
 	document.write(mobileInfo[info]+"<br>");
     if (navigator.userAgent.match(mobileKeyWords[info]) != null)
     {
