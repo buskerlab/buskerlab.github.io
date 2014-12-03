@@ -45,7 +45,7 @@ function printHeader(selectedIdx)
 	}
 	document.write("\
 <img src=\"images/web_logo.png\" border=0><br><br>\
-<a href=\"test.html\" class=" + class0 + ">HOME</a>\
+<a href=\"index.html\" class=" + class0 + ">HOME</a>\
 &nbsp;&nbsp;\
 <a href=\"mission.html\" class=" + class1 + ">MISSION</a>\
 &nbsp;&nbsp;\
