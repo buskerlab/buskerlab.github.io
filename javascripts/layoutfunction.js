@@ -44,7 +44,10 @@ function printHeader(selectedIdx)
 		break;
 	}
 	document.write("\
-<img src=\"images/web_logo.png\" border=0><br><br>\
+<img src=\"images/logo_image_normal.png\" \
+onmouseover=\"this.src='images/logo_image_mouseover.png'\" \
+onmouseout=\"this.src='images/logo_image_normal.png'\"><img src=\"images/logo_text.png\"></a>\
+<br><br>\
 <a href=\"index.html\" class=" + class0 + ">HOME</a>\
 &nbsp;&nbsp;\
 <a href=\"mission.html\" class=" + class1 + ">MISSION</a>\
