@@ -18,7 +18,7 @@ body
 	border: 0;
 	padding: 0px;
     border-spacing: 0px;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-left:auto;
     margin-right:auto;
     background-color:#aaaaaa;
@@ -27,7 +27,7 @@ body
 .headertable
 {
 	height: 65px;
-	padding-left:20px;
+	padding-left:10px;
 	padding-right:20px;
 	padding-top:10px;
 	padding-bottom:20px;
