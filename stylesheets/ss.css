@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-
 body
 {
 	margin-top:0px;
@@ -74,7 +72,7 @@ a.menuselected
 	padding-right:20px;
 	padding-top:20px;
 	font-size:9pt;
-	font-family:'Nanum Gothic', verdana;
+	font-family:verdana;
 	color:#111111;
   	padding-top:20px
 }
