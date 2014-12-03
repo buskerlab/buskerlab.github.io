@@ -44,7 +44,7 @@ function printHeader(selectedIdx)
 		break;
 	}
 	document.write("\
-<img src=\"images/logo_image_normal.png\" \
+<a href=\"index.html\"><img src=\"images/logo_image_normal.png\" \
 onmouseover=\"this.src='images/logo_image_mouseover.png'\" \
 onmouseout=\"this.src='images/logo_image_normal.png'\"><img src=\"images/logo_text.png\"></a>\
 <br><br>\
