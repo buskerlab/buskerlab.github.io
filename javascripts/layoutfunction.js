@@ -60,5 +60,5 @@ onmouseout=\"this.src='images/logo_image_normal.png'\"><img src=\"images/logo_te
 
 function printFooter()
 {
-	document.write("Copyright &#64; 2014 BuskerLab  |  All Rights Reserved.");
+	document.write("Copyright &#64; 2014 Busker Lab  |  All Rights Reserved.");
 }
