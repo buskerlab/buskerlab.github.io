@@ -1,6 +1,6 @@
 function isMobile()
 {
-	var mobileInfo = new Array('Android', 'iPhone', 'iPod', 'BlackBerry', 'Windows CE', 
+	var mobileInfo = new Array('Android', 'iPhone', 'iPod', 'BlackBerry', 'Windows CE',
 	'SAMSUNG', 'LG', 'MOT', 'SonyEricsson','Symbian','Windows Phone','webOS','Opera Mini',
 	'Opera Mobi','POLARIS','IEMobile');
 
@@ -60,5 +60,5 @@ onmouseout=\"this.src='images/logo_image_normal.png'\"><img src=\"images/logo_te
 
 function printFooter()
 {
-	document.write("Copyright &#64; 2014 Busker Lab  |  All Rights Reserved.");
+	document.write("Copyright &#64; 2016 Busker Lab  |  All Rights Reserved.");
 }

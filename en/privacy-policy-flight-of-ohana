@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta name="viewport" content="width=700">
+<meta http-equiv="content-type" content="text/html; charset=utf8">
+<meta name="keywords" content="BuskerLab, Game, Mobile Game, Fun, Indie Game">
+<meta name="description" content="About BuskerLab">
+<meta name="author" content="wooyong chung @ buskerlab">
+<link rel="stylesheet" type="text/css" href="/stylesheets/ss.css" />
+<link rel="shortcut icon" href="/images/favicon.ico">
+
+<title>
+Busker Lab
+</title>
+<script src="/javascripts/layoutfunction.js"></script>
+</head>
+<body>
+<table class=container>
+<tr><td class=headertable>
+<script language="JavaScript">
+<!--
+printHeader(1);
+//-->
+</script>
+</td></tr>
+<tr><td class=contentstable>
+<h1>Privacy Policy – Flight of OHANA</h1>
+<div class=contents>
+Busker Lab, Inc. does not collect any of your personal information in connection with and in order to provide the mobile game service Flight of OHANA (“Service”) according to this privacy policy (“Privacy Policy”).<br>
+<br>
+For questions and information about Privacy Policy, please contact us at service[at]buskerlab.com.<br>
+<br>
+The Service is governed by this Privacy Policy. Please do not install or use Service if you do not agree to this Privacy Policy.<br>
+<br>
+Busker Lab, Inc. reserves the right to modify this Privacy Policy. Your continued use of Service will signify your acceptance of the changes to this Privacy Policy.<br>
+</div>
+</td></tr>
+<tr><td class=footertable>
+<script language="JavaScript">
+<!--
+printFooter();
+//-->
+</script>
+</td></tr>
+</table>
+</body>
+</html>
