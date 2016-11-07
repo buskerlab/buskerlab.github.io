@@ -50,11 +50,7 @@ onmouseout=\"this.src='images/logo_image_normal.png'\"><img src=\"images/logo_te
 <br><br>\
 <a href=\"index.html\" class=" + class0 + ">HOME</a>\
 &nbsp;&nbsp;\
-<a href=\"mission.html\" class=" + class1 + ">MISSION</a>\
-&nbsp;&nbsp;\
-<a href=\"vision.html\" class=" + class2 + ">VISION</a>\
-&nbsp;&nbsp;\
-<a href=\"contact.html\" class=" + class3 + ">CONTACT</a>\
+<a href=\"game.html\" class=" + class1 + ">GAME</a>\
 </div>");
 }
 
